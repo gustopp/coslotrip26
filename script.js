@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fetch and render data
-    fetch('vuelos.json')
+    fetch(`vuelos.json?nocache=${new Date().getTime()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error("HTTP error " + response.status);
