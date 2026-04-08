@@ -16,6 +16,17 @@
             <img src="logo.png" alt="Coslotrip 26" class="header-logo">
         </header>
 
+        <div class="view-toggle">
+            <button id="btn-by-passenger" class="toggle-btn active" onclick="setMode('passenger')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                Por Pasajero
+            </button>
+            <button id="btn-by-flight" class="toggle-btn" onclick="setMode('flight')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81 19.86 19.86 0 0118.18 2 2 2 0 0120 4.18v3.06"/><path d="M14 2l4 4-4 4M2 14l4 4-4 4" stroke-linecap="round"/></svg>
+                Por Vuelo
+            </button>
+        </div>
+
         <main id="passengers-container">
             <div class="loading">Cargando datos...</div>
         </main>

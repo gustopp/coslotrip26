@@ -47,6 +47,152 @@ header {
     object-fit: contain;
 }
 
+/* View Mode Toggle */
+.view-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255,255,255,0.12);
+    padding: 0.35rem;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.1rem;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    color: rgba(255,255,255,0.7);
+    background: transparent;
+    transition: all 0.25s ease;
+}
+
+.toggle-btn svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.toggle-btn:hover {
+    color: #ffffff;
+    background: rgba(255,255,255,0.1);
+}
+
+.toggle-btn.active {
+    background: #ffffff;
+    color: var(--accent-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Route cards (Por Vuelo mode) */
+.route-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    animation: fadeInUp 0.5s ease-out both;
+}
+
+.route-header {
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.route-header:hover {
+    background-color: var(--card-hover);
+}
+
+.route-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.route-subtitle {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-top: 0.2rem;
+}
+
+/* Specific flight group within a route */
+.flight-group-card {
+    background: #f8fafc;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+}
+
+.flight-group-header {
+    padding: 0.8rem 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.flight-group-header:hover {
+    background-color: #eef2f7;
+}
+
+.flight-group-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.flight-group-subtitle {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 0.15rem;
+}
+
+/* Passenger list inside a flight group */
+.passenger-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.passenger-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    background: white;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.passenger-item::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    border-radius: 50%;
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
 .loading, .error {
     text-align: center;
     padding: 2rem;
