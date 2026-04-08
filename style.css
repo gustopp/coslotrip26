@@ -1,14 +1,14 @@
 :root {
-    --bg-color: #0f172a;
-    --card-bg: rgba(30, 41, 59, 0.7);
-    --card-hover: rgba(51, 65, 85, 0.8);
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent-color: #3b82f6;
-    --accent-hover: #2563eb;
-    --border-color: rgba(255, 255, 255, 0.1);
-    --gradient-start: #3b82f6;
-    --gradient-end: #8b5cf6;
+    --bg-color: #0A2E9E; /* Azul profundo del fondo de la imagen */
+    --card-bg: #ffffff;
+    --card-hover: #f8fafc;
+    --text-primary: #1e3a8a; /* Texto azul muy oscuro/casi negro */
+    --text-secondary: #64748b;
+    --accent-color: #EA4C00; /* Naranja fuerte de la tarjeta */
+    --accent-hover: #CC4000;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --gradient-start: #EA4C00;
+    --gradient-end: #FF6A00;
     --font-primary: 'Inter', sans-serif;
 }
 
@@ -26,9 +26,6 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 20%), 
-                      radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 20%);
-    background-attachment: fixed;
 }
 
 .app-container {
@@ -46,14 +43,12 @@ header {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ffffff;
     margin-bottom: 0.5rem;
 }
 
 header p {
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1.1rem;
 }
 
@@ -85,8 +80,8 @@ header p {
 }
 
 .passenger-card:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.15);
 }
 
 .passenger-header, .flight-header {
@@ -171,15 +166,15 @@ header p {
 }
 
 .flight-card {
-    background: rgba(15, 23, 42, 0.6);
+    background: #f1f5f9;
     margin-bottom: 0;
     border-radius: 12px;
 }
 
 .flight-title {
     font-size: 1.1rem;
-    font-weight: 500;
-    color: #e2e8f0;
+    font-weight: 600;
+    color: var(--text-primary);
 }
 
 .flight-subtitle {
@@ -238,10 +233,11 @@ header p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
-    background: rgba(255, 255, 255, 0.03);
+    background: #ffffff;
     padding: 1rem;
     border-radius: 8px;
     font-size: 0.9rem;
+    border: 1px solid var(--border-color);
 }
 
 .detail-item {
@@ -265,8 +261,8 @@ header p {
     display: inline-block;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    background: rgba(59, 130, 246, 0.2);
-    color: #60a5fa;
+    background: rgba(234, 76, 0, 0.1);
+    color: var(--accent-color);
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;

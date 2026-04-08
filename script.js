@@ -148,6 +148,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
+            // Ordenar pasajeros alfabéticamente por nombre
+            pasajeros.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+
+            // Ordenar vuelos de cada pasajero por fecha del primer tramo
+            pasajeros.forEach(passenger => {
+                if (passenger.vuelos) {
+                    passenger.vuelos.sort((a, b) => {
+                        const dateA = a.itinerario && a.itinerario[0] ? a.itinerario[0].fecha_salida : '';
+                        const dateB = b.itinerario && b.itinerario[0] ? b.itinerario[0].fecha_salida : '';
+                        return dateA.localeCompare(dateB);
+                    });
+                }
+            });
+
             pasajeros.forEach((passenger, index) => {
                 const card = createPassengerCard(passenger, index);
                 container.appendChild(card);
