@@ -1,0 +1,2036 @@
+{
+  "pasajeros": [
+    {
+      "nombre": "Lucas Daniel Sanz",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ramon Sosa",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Gustavo Enrique Lagoutte",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Agustin Gonzalez Guerra",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Manuel Palmucci",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Ignacio Bracciale",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ignacio Martin Del Castillo Madeo",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Manuel Fumagalli",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24656078399",
+          "codigo_reserva_aerolinea": "NXEUWR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "15:45",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "17:08",
+              "numero_vuelo": "LA454",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "19:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "13:55",
+              "numero_vuelo": "LA706",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:55",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "07:15",
+              "numero_vuelo": "LA705",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Santiago de Chile (SCL) - Arturo Merino Benítez",
+              "destino": "Buenos Aires (EZE) - Ministro Pistarini",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "08:30",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "11:30",
+              "numero_vuelo": "LA542",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Esteban Bertolin",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Matias Alfonso Ben",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Nicolas Arnaldo Crocce",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Facundo Olmos Cardenas",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Luciano Martin Baldanza",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Federico Martins",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Jose Maria Paz",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24726354481",
+          "codigo_reserva_aerolinea": "MQDAKY",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Leandro Martino",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "OBZ8QS",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Tomas Michelini",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24758102482",
+          "codigo_reserva_aerolinea": "MVQAXR",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "07:25",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "10:30",
+              "numero_vuelo": "LA8192",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABT6H2",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "OBZ8QS",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Lautaro Carmona",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24758033636",
+          "codigo_reserva_aerolinea": "DWIOYP",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "07:25",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "10:30",
+              "numero_vuelo": "LA8192",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Pedro Pablo Ugalde",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24708225150",
+          "codigo_reserva_aerolinea": "MYQGMN",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-30",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-31",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-31",
+              "hora_salida": "09:05",
+              "fecha_llegada": "2026-05-31",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Francisco Mesurado",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24708225150",
+          "codigo_reserva_aerolinea": "MYQGMN",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-10",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "fecha_salida": "2026-05-10",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-30",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-31",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuación)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-31",
+              "hora_salida": "09:05",
+              "fecha_llegada": "2026-05-31",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABS2ON",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Andres Baldanza",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": "24730627990",
+          "codigo_reserva_aerolinea": "YD6CUO",
+          "aerolinea": "KLM Royal Dutch Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "17:20",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "19:50",
+              "numero_vuelo": "KL1506",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "OBZ8QS",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hernan Carreira",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ABTLOC",
+          "aerolinea": "TAP Portugal",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Adolfo Suárez Barajas, Terminal T2",
+              "destino": "Lisboa (LIS) - Airport, Terminal 1",
+              "fecha_salida": "2026-05-11",
+              "hora_salida": "16:20",
+              "fecha_llegada": "2026-05-11",
+              "hora_llegada": "16:45",
+              "numero_vuelo": "TP1015",
+              "clase": "Económico"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Leonardo Redolatti",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Nicolas Bayerque",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Mariano Osa",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ignacio Mendioroz",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ariel Flores",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "YHSHXA",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Maximiliano Braile",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "OBZ8QS",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Martin Azpiroz",
+      "vuelos": [
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "OBZ8QS",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Amsterdam (AMS) - Schiphol",
+              "destino": "Barcelona (BCN)",
+              "fecha_salida": "2026-05-19",
+              "hora_salida": "18:55",
+              "fecha_llegada": "2026-05-19",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
