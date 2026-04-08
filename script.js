@@ -13,6 +13,20 @@ document.addEventListener("DOMContentLoaded", () => {
         element.classList.toggle("expanded");
     }
 
+    function getFlag(location) {
+        if (!location) return '';
+        const loc = location.toUpperCase();
+        if (loc.includes('AEP') || loc.includes('EZE') || loc.includes('BUENOS AIRES')) return '🇦🇷';
+        if (loc.includes('SCL') || loc.includes('SANTIAGO')) return '🇨🇱';
+        if (loc.includes('MAD') || loc.includes('MADRID') || loc.includes('BCN') || loc.includes('BARCELONA')) return '🇪🇸';
+        if (loc.includes('LIS') || loc.includes('LISBOA')) return '🇵🇹';
+        if (loc.includes('AMS') || loc.includes('AMSTERDAM')) return '🇳🇱';
+        if (loc.includes('GRU') || loc.includes('SAO PAULO')) return '🇧🇷';
+        if (loc.includes('TOS') || loc.includes('TROMSO')) return '🇳🇴';
+        if (loc.includes('CPH') || loc.includes('COPENHAGEN')) return '🇩🇰';
+        return '';
+    }
+
     function createPassengerCard(passenger, index) {
         const card = document.createElement("div");
         card.className = "passenger-card";
@@ -24,13 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="passenger-name">${passenger.nombre}</div>
             ${renderArrowIcon()}
         `;
-        
+
         header.addEventListener("click", () => toggleAccordion(card));
 
         const content = document.createElement("div");
         content.className = "passenger-content";
-        
+
         const contentInner = document.createElement("div");
+        // FIX: El content-inner necesita estar directamente bajo passenger-content
+        // para que el selector CSS funcione. La clase flights-list solo agrega estilos de layout.
         contentInner.className = "content-inner flights-list";
 
         if (passenger.vuelos && passenger.vuelos.length > 0) {
@@ -51,18 +67,20 @@ document.addEventListener("DOMContentLoaded", () => {
     function createFlightCard(vuelo, index) {
         const card = document.createElement("div");
         card.className = "flight-card";
-        
-        const itinerario = vuelo.itinerario || [];
-        // Determinar origen y destino general del vuelo
-        const origenGeneral = itinerario.length > 0 ? itinerario[0].origen : "Desconocido";
-        const destinoGeneral = itinerario.length > 0 ? itinerario[itinerario.length - 1].destino : "Desconocido";
+
+        // FIX: Copia defensiva del itinerario para evitar mutaciones cruzadas entre vuelos
+        const itinerario = Array.isArray(vuelo.itinerario) ? [...vuelo.itinerario] : [];
+
+        // FIX: Acceso defensivo con optional chaining para evitar "undefined" en el título
+        const origenGeneral = itinerario[0]?.origen ?? "Desconocido";
+        const destinoGeneral = itinerario[itinerario.length - 1]?.destino ?? "Desconocido";
 
         const header = document.createElement("div");
         header.className = "flight-header";
         header.innerHTML = `
             <div>
-                <div class="flight-title">${origenGeneral} &rarr; ${destinoGeneral}</div>
-                <div class="flight-subtitle">${vuelo.aerolinea} • ${itinerario.length} tramos</div>
+                <div class="flight-title">${origenGeneral} ${getFlag(origenGeneral)} &rarr; ${destinoGeneral} ${getFlag(destinoGeneral)}</div>
+                <div class="flight-subtitle">${vuelo.aerolinea ?? "Aerolínea desconocida"} • ${itinerario.length} ${itinerario.length === 1 ? "tramo" : "tramos"}</div>
             </div>
             ${renderArrowIcon()}
         `;
@@ -75,36 +93,52 @@ document.addEventListener("DOMContentLoaded", () => {
         const content = document.createElement("div");
         content.className = "flight-content";
 
-        let metaHtml = `
+        const metaHtml = `
             <div class="flight-meta">
-                ${vuelo.codigo_reserva_aerolinea ? `<span class="badge badge-highlight">Código de reserva: ${vuelo.codigo_reserva_aerolinea}</span>` : ''}
+                ${vuelo.codigo_reserva_aerolinea
+                ? `<span class="badge badge-highlight">Código de reserva: ${vuelo.codigo_reserva_aerolinea}</span>`
+                : ''}
             </div>
         `;
 
+        // FIX: Acceso defensivo a cada campo del tramo para evitar "undefined" en pantalla
         let stepsHtml = '';
         itinerario.forEach(tramo => {
+            if (!tramo) return; // saltar tramos nulos/undefined
+            const tramo_nombre = tramo.tramo ?? "—";
+            const numero_vuelo = tramo.numero_vuelo ?? "—";
+            const clase = tramo.clase ?? "—";
+            const origen = tramo.origen ?? "—";
+            const destino = tramo.destino ?? "—";
+            const fecha_salida = tramo.fecha_salida ?? "—";
+            const hora_salida = tramo.hora_salida ?? "—";
+            const fecha_llegada = tramo.fecha_llegada ?? "—";
+            const hora_llegada = tramo.hora_llegada ?? "—";
+
             stepsHtml += `
                 <div class="itinerary-step">
                     <div class="step-title">
-                        <span>Tramo: ${tramo.tramo} <span style="color:var(--text-secondary);font-size:0.85em;margin-left:8px;">${tramo.numero_vuelo}</span></span>
-                        <span style="font-size: 0.85em; font-weight: 500">${tramo.clase}</span>
+                        <span>Tramo: ${tramo_nombre} <span style="color:var(--text-secondary);font-size:0.85em;margin-left:8px;">${numero_vuelo}</span></span>
+                        <span style="font-size: 0.85em; font-weight: 500">${clase}</span>
                     </div>
                     <div class="step-details">
                         <div class="detail-item">
                             <span class="detail-label">Origen</span>
-                            <span class="detail-value">${tramo.origen}</span>
-                            <span style="color:var(--text-secondary);font-size:0.8rem">${tramo.fecha_salida} - ${tramo.hora_salida}</span>
+                            <span class="detail-value">${origen} ${getFlag(origen)}</span>
+                            <span style="color:var(--text-secondary);font-size:0.8rem">${fecha_salida} - ${hora_salida}</span>
                         </div>
                         <div class="detail-item">
                             <span class="detail-label">Destino</span>
-                            <span class="detail-value">${tramo.destino}</span>
-                            <span style="color:var(--text-secondary);font-size:0.8rem">${tramo.fecha_llegada} - ${tramo.hora_llegada}</span>
+                            <span class="detail-value">${destino} ${getFlag(destino)}</span>
+                            <span style="color:var(--text-secondary);font-size:0.8rem">${fecha_llegada} - ${hora_llegada}</span>
                         </div>
                     </div>
                 </div>
             `;
         });
 
+        // FIX: El content-inner del vuelo debe ser hijo directo de flight-content
+        // para que el selector CSS ".expanded > .flight-content > .content-inner" funcione
         const contentInner = document.createElement("div");
         contentInner.className = "content-inner";
         contentInner.innerHTML = metaHtml + stepsHtml;
@@ -131,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fetch and render data
-    fetch(`vuelos.json?nocache=${new Date().getTime()}`)
+    fetch('vuelos.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error("HTTP error " + response.status);
@@ -141,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             container.innerHTML = "";
             const pasajeros = data.pasajeros || [];
-            
+
             if (pasajeros.length === 0) {
                 container.innerHTML = `<p style="text-align:center; color: var(--text-secondary)">No se encontraron pasajeros.</p>`;
                 return;
@@ -150,12 +184,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // Ordenar pasajeros alfabéticamente por nombre
             pasajeros.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 
-            // Ordenar vuelos de cada pasajero por fecha del primer tramo
+            // FIX: Copia del array de vuelos antes de ordenar para evitar mutaciones
+            // que corrompían referencias entre pasajeros con vuelos compartidos
             pasajeros.forEach(passenger => {
-                if (passenger.vuelos) {
-                    passenger.vuelos.sort((a, b) => {
-                        const dateA = a.itinerario && a.itinerario[0] ? a.itinerario[0].fecha_salida : '';
-                        const dateB = b.itinerario && b.itinerario[0] ? b.itinerario[0].fecha_salida : '';
+                if (Array.isArray(passenger.vuelos)) {
+                    passenger.vuelos = [...passenger.vuelos].sort((a, b) => {
+                        const dateA = a?.itinerario?.[0]?.fecha_salida ?? '';
+                        const dateB = b?.itinerario?.[0]?.fecha_salida ?? '';
                         return dateA.localeCompare(dateB);
                     });
                 }
