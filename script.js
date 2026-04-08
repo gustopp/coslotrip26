@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let metaHtml = `
             <div class="flight-meta">
                 ${vuelo.codigo_reserva_aerolinea ? `<span class="badge badge-highlight">Código de reserva: ${vuelo.codigo_reserva_aerolinea}</span>` : ''}
-                ${vuelo.codigo_reserva_edreams ? `<span class="badge">eDreams: ${vuelo.codigo_reserva_edreams}</span>` : ''}
             </div>
         `;
 
