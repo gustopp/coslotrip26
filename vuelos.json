@@ -89,6 +89,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -178,6 +196,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -273,6 +309,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -362,6 +416,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -457,6 +529,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -546,6 +636,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -641,6 +749,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -730,6 +856,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -825,6 +969,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -914,6 +1076,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -1009,6 +1189,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1098,6 +1296,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -1193,6 +1409,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1282,6 +1516,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -1377,6 +1629,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1415,6 +1685,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -1510,6 +1798,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1599,6 +1905,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -1694,6 +2018,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1786,6 +2128,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1868,6 +2228,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1914,6 +2292,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
@@ -1934,6 +2330,24 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]
@@ -2003,6 +2417,42 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            },
+            {
+              "codigo_reserva_edreams": null,
+              "codigo_reserva_aerolinea": "XUKPMN",
+              "aerolinea": "Scandinavian Airlines",
+              "itinerario": [
+                {
+                  "tramo": "Ida",
+                  "origen": "Tromso (TOS)",
+                  "destino": "Copenhagen (CPH) - Kastrup",
+                  "fecha_salida": "2026-05-10",
+                  "hora_salida": "11:45",
+                  "fecha_llegada": "2026-05-10",
+                  "hora_llegada": "14:20",
+                  "numero_vuelo": "SK4451",
+                  "clase": "Economico"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "D9TBYF",
+          "aerolinea": "Transavia",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Lisboa (LIS) - Airport",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "12:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "16:00",
+              "numero_vuelo": "HV5956",
               "clase": "Turista"
             }
           ]

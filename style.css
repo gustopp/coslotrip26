@@ -272,6 +272,15 @@ header p {
     text-transform: uppercase;
 }
 
+.badge-highlight {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.7rem;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .flight-meta {
     display: flex;
     gap: 1rem;
