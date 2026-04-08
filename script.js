@@ -16,14 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
     function getFlag(location) {
         if (!location) return '';
         const loc = location.toUpperCase();
-        if (loc.includes('AEP') || loc.includes('EZE') || loc.includes('BUENOS AIRES')) return '🇦🇷';
-        if (loc.includes('SCL') || loc.includes('SANTIAGO')) return '🇨🇱';
-        if (loc.includes('MAD') || loc.includes('MADRID') || loc.includes('BCN') || loc.includes('BARCELONA')) return '🇪🇸';
-        if (loc.includes('LIS') || loc.includes('LISBOA')) return '🇵🇹';
-        if (loc.includes('AMS') || loc.includes('AMSTERDAM')) return '🇳🇱';
-        if (loc.includes('GRU') || loc.includes('SAO PAULO')) return '🇧🇷';
-        if (loc.includes('TOS') || loc.includes('TROMSO')) return '🇳🇴';
-        if (loc.includes('CPH') || loc.includes('COPENHAGEN')) return '🇩🇰';
+        let code = '';
+        
+        if (loc.includes('AEP') || loc.includes('EZE') || loc.includes('BUENOS AIRES')) code = 'ar';
+        if (loc.includes('SCL') || loc.includes('SANTIAGO')) code = 'cl';
+        if (loc.includes('MAD') || loc.includes('MADRID') || loc.includes('BCN') || loc.includes('BARCELONA')) code = 'es';
+        if (loc.includes('LIS') || loc.includes('LISBOA')) code = 'pt';
+        if (loc.includes('AMS') || loc.includes('AMSTERDAM')) code = 'nl';
+        if (loc.includes('GRU') || loc.includes('SAO PAULO')) code = 'br';
+        if (loc.includes('TOS') || loc.includes('TROMSO')) code = 'no';
+        if (loc.includes('CPH') || loc.includes('COPENHAGEN')) code = 'dk';
+        
+        if (code) {
+            return `<img src="https://flagcdn.com/w20/${code}.png" class="flag-icon" alt="${code}">`;
+        }
         return '';
     }
 
@@ -165,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fetch and render data
-    fetch('vuelos.json')
+    fetch(`vuelos.json?nocache=${new Date().getTime()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error("HTTP error " + response.status);
