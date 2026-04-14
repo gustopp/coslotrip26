@@ -2320,6 +2320,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ZYDLP7",
+          "aerolinea": "KLM",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Madrid (MAD) - Aeropuerto Barajas",
+              "destino": "Amsterdam (AMS) - Schiphol Airport",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "17:20",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "19:50",
+              "numero_vuelo": "KL1506",
+              "clase": "Económico"
+            }
+          ]
         }
       ]
     },
@@ -2527,6 +2545,42 @@
               "fecha_llegada": "2026-05-19",
               "hora_llegada": "21:05",
               "numero_vuelo": "HV5133",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "VULYYF",
+          "aerolinea": "Ryanair",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Barcelona (BCN)",
+              "destino": "Brussels Charleroi (CRL)",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "11:35",
+              "fecha_llegada": "2026-05-24",
+              "hora_llegada": "13:50",
+              "numero_vuelo": "FR2834",
+              "clase": "Turista"
+            }
+          ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "G66LKX",
+          "aerolinea": "Ryanair",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Brussels Charleroi (CRL)",
+              "destino": "Genoa (GOA)",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "18:40",
+              "fecha_llegada": "2026-05-24",
+              "hora_llegada": "20:15",
+              "numero_vuelo": "FR4964",
               "clase": "Turista"
             }
           ]
