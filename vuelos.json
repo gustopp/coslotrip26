@@ -2584,6 +2584,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ZYZ8SV",
+          "aerolinea": "KLM Royal Dutch Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Genova (GOA) - Aeropuerto de Génova",
+              "destino": "Amsterdam (AMS) - Schiphol",
+              "fecha_salida": "2026-05-16",
+              "hora_salida": "14:05",
+              "fecha_llegada": "2026-05-16",
+              "hora_llegada": "16:05",
+              "numero_vuelo": "KL1646",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     }
