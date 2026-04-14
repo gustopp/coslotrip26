@@ -2466,6 +2466,24 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "ZZACG5",
+          "aerolinea": "KLM",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Barcelona (BCN) - Aeropuerto Josep Tarradellas Barcelona-El Prat",
+              "destino": "Amsterdam (AMS) - Schiphol Airport",
+              "fecha_salida": "2026-05-15",
+              "hora_salida": "11:10",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "13:30",
+              "numero_vuelo": "KL1512",
+              "clase": "Económico"
+            }
+          ]
         }
       ]
     },
