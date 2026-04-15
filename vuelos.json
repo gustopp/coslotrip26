@@ -2187,6 +2187,57 @@
               "clase": "Turista"
             }
           ]
+        },
+        {
+          "codigo_reserva_edreams": null,
+          "codigo_reserva_aerolinea": "FMCEKN",
+          "aerolinea": "LATAM Airlines",
+          "itinerario": [
+            {
+              "tramo": "Ida",
+              "origen": "Buenos Aires (AEP) - Jorge Newberry",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-14",
+              "hora_salida": "18:20",
+              "fecha_llegada": "2026-05-14",
+              "hora_llegada": "21:05",
+              "numero_vuelo": "LA8035",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Ida (continuacion)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Madrid (MAD) - Adolfo Suarez Barajas",
+              "fecha_salida": "2026-05-14",
+              "hora_salida": "23:00",
+              "fecha_llegada": "2026-05-15",
+              "hora_llegada": "14:05",
+              "numero_vuelo": "LA714",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta",
+              "origen": "Madrid (MAD) - Adolfo Suarez Barajas",
+              "destino": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "fecha_salida": "2026-05-24",
+              "hora_salida": "23:45",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "05:20",
+              "numero_vuelo": "LA715",
+              "clase": "Turista"
+            },
+            {
+              "tramo": "Vuelta (continuacion)",
+              "origen": "Sao Paulo (GRU) - Guarulhos Internacional",
+              "destino": "Buenos Aires (AEP) - Jorge Newberry",
+              "fecha_salida": "2026-05-25",
+              "hora_salida": "09:00",
+              "fecha_llegada": "2026-05-25",
+              "hora_llegada": "12:00",
+              "numero_vuelo": "LA8140",
+              "clase": "Turista"
+            }
+          ]
         }
       ]
     },
